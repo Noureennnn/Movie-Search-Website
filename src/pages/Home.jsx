@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import SearchBar from '../components/Sgit add .earchBar';
+import SearchBar from '../components/SearchBar';
 import MovieList from '../components/MovieList';
 import logo from '../assets/logo.png';
 import '../styles/Home.css';
