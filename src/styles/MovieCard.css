@@ -1,0 +1,31 @@
+ .MovieCard {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px; /* Softens the corners of the cards */
+  overflow: hidden; /* Hides any content that goes outside the border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for depth */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for hover effect */
+  text-align: center;
+  text-decoration: none; /* Removes the underline from the Link component */
+  color: inherit; /* Inherits text color from the parent */
+  background-color: black;
+}
+
+.MovieCard:hover {
+  transform: scale(1.05); /* Scales the card up slightly when hovered over */
+}
+
+.MovieCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.MovieCard h3 {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap; /* Prevents title from wrapping */
+  overflow: hidden; /* Hides text that overflows the container */
+  text-overflow: ellipsis; /* Adds "..." to overflowing text */
+}

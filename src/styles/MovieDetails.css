@@ -1,0 +1,163 @@
+.cont {
+   background-color:rgba(255, 255, 255, 0.893);
+    border-radius: 20px;
+    padding: 20px;
+    display:grid;
+    width: 1000px;
+    height: 600px;
+    box-shadow:0 4px 8px rgb(0, 0, 0);
+    text-align: center;
+}
+    .post {
+    display: block;
+    align-items: flex-start;
+    margin-top: 0px;
+    border-radius: 40px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+    text-shadow: 0 4px 8px rgb(255, 255, 255);
+    margin-bottom: 0px;
+
+}
+.Plot {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width:600px;
+    justify-self: flex-end;
+    margin-left: 370px;
+    height:300px;
+}
+.symbol{
+  height: 130px;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 200ms;
+}
+.symbol:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@keyframes symbol-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imgtext {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .symbol {
+    animation: symbol-spin infinite 10s linear;
+  }
+}
+p {
+    display:block;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    color: #000000 ;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+
+}
+.Runtime{
+    height: 30px;
+    width: 80px;
+    display: block;
+    justify-self:center;
+    color: rgb(0, 0, 0);
+    margin-top:0px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+.Actors{
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+}
+.Rating{
+  height: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Awards{
+  height: 40px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-right:50px;
+}
+.Year{
+  height: 30px;
+  margin: 0px;
+  margin-right: 35px;
+}
+strong {
+  color: #6e6eca;
+} 
+@media (max-width: 768px){
+  .cont{
+    width: 600px;
+    height:1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .imgtext{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+  .Plot{
+    font-size: 13px;
+    margin-top: 550px;
+    margin-right: 20%;
+    height: 200px;
+  }
+  .Runtime{
+    margin-right: 65%;
+  }
+  .Actors{
+    margin-right: 25%;
+  }
+  h1{
+   margin-left:auto;
+   margin-right:30%;
+   margin-bottom: 20px;
+  }
+  .Rating{
+    margin-right: 30%;
+  }
+  .Awards{
+    margin-right: 30%;
+  }
+  .Year{
+    margin-right: 30%;
+  }
+  .desc{
+    width: 600px;
+  }
+}

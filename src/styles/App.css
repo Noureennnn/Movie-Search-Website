@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+html {
+ background-image: url("../assets/Background.jpeg");
+}
+.symbol{
+  height: 8em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 200ms;
+}
+.symbol:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@keyframes symbol-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .symbol {
+    animation: symbol-spin infinite 10s linear;
+  }
+}
