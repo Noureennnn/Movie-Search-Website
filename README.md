@@ -5,10 +5,10 @@
   ### Installation
   1 . Clone the repo
   ```bash
-    git clone [https://github.com/Noureennnn/Movie-Search-Website.git](https://github.com/Noureennnn/Movie-Search-Website.git)
+    git clone git@github.com:Noureennnn/Movie-Search-Website.git
     ```
   2 . Navigate to the project directory
   ```bash
     cd Movie-search-Website
     ```
-  3 . Install 
+  3 . Install dependencies 
