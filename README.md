@@ -1,3 +1,14 @@
 # [Movie Search Website]
  This website allows users to search through movies and viewing each movie or tv series' plot,actors,release year,runtime and rating. I used React and css. Below are the instructions for setting up necessary files
  ### Make sure you have Node.js and npm installed
+- **Node.js**: [https://nodejs.org/](https://nodejs.org/)
+  ### Installation
+  1 . Clone the repo
+  ```bash
+    git clone [https://github.com/Noureennnn/Movie-Search-Website.git](https://github.com/Noureennnn/Movie-Search-Website.git)
+    ```
+  2 . Navigate to the project directory
+  ```bash
+    cd Movie-search-Website
+    ```
+  3 . Install 
