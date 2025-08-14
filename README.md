@@ -10,7 +10,7 @@
     ```
   2. Navigate to the project directory
   ```bash
-    cd Movie-search-Website
+    cd Movie-Search-Website
     ```
   3. Install dependencies
   ```bash
